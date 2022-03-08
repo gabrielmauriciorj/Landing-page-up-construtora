@@ -1,0 +1,129 @@
+body{
+    margin: 0 auto;
+    padding: 15px;
+   max-width: 1250px;
+   font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo img{
+    width: 130px ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+header nav a{
+    text-decoration: none;
+    list-style: none;
+    color:#001845 ;
+}
+header nav a:hover{
+    text-decoration: none;
+    list-style: none;
+    color:#0582CA;
+    transition: 0.5s ease;
+}
+
+header nav ul{
+    margin-top: 55px;
+
+}
+
+header nav li{
+    display: inline-block;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+header nav  .login{
+    border: 2px solid #001845;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left:28px ;
+    
+    
+}
+header nav  .login:hover{
+    border: 2px solid #001845;
+    background-color: #001845;
+    color: #ffff;
+    transition: 0.5s ease;
+    
+    
+}
+#btn-mobile{
+    display: none;
+}
+
+/* ==================================MAIN============================= */
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside {
+    margin-top: 100px;
+}
+
+aside h2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 49px;
+    color: #0582CA;
+}
+
+aside h2 span{
+    font-weight: 700;
+    font-size:54px ;
+    color: #001845;
+    
+}
+
+aside p {
+    max-width: 490px;
+    color: #001845;
+    margin-top: -15px;
+    font-size: 18px;
+} 
+main .phone img{
+    margin-top: 50px;
+    width: 455px;
+    
+    
+}
+
+/* ==================================Form============================= */
+
+ .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input{
+    margin-top: 20px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #DCDFE5;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+form [type="submit"]{
+    height: 55px;
+    width: 50%;
+    background-color: #001845;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
